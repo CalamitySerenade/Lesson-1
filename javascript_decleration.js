@@ -4,6 +4,8 @@
 //Var lets you redeclare and update variables, has function scope
 //let does NOT allow redecleration, local scope
 //Var will change the value inside the function calls
+//JS Datatypes: String, Number, Bigint, Boolean, Object, Undefined, Null, Symbol
+
 
 let width=10;
 let height=10;
