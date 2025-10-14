@@ -25,3 +25,5 @@ function votingEligibility(age){
     console.log(votingEligibility(18));
 //Prints second case
     console.log(votingEligibility(17));
+
+//Syntax: if(condition)? true:false
