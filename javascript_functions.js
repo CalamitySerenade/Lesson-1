@@ -80,3 +80,20 @@ console.log(describeTemperature(31));
 
 //Note: JS does not support method overloading or overriding. Anytime you rewrite a function the old function is omitted from memory, just like a variable
 //JS functions can be assigned in a variable
+
+//Why arrow functions were created?
+//Arrow function was introduceed around 2015-16
+//Job was to make sure coders or developers needed to write less to create a function
+//And lexically binds the values
+
+//Syntax for arrow functions:
+//functionName=(par1,par2,...)=>{}
+//return cannot be used in an arrow function if it is a single line function
+//if I am writing a single line function, I do not use the curly braces and the return keyword
+//single line version: functionName=parameters=>output;
+
+calculateRectangle=(width,height)=>width*height;
+console.log(calculateRectangle(5,10));
+
+//IF NOT SINGLE LINE FUNCTION
+//write a normal function
