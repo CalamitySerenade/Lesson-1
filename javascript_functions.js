@@ -77,3 +77,6 @@ function describeTemperature(f){
 }
 
 console.log(describeTemperature(31));
+
+//Note: JS does not support method overloading or overriding. Anytime you rewrite a function the old function is omitted from memory, just like a variable
+//JS functions can be assigned in a variable
