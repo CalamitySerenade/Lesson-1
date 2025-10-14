@@ -32,11 +32,11 @@ gradeCategory=(score)=>{
 
 //Question 3. Vowels
 
-function countVowels(word){
+countVowels=(word)=>{
     let count=0;
     for(let i=0; i<word.length();i++){
         if((word[i]='A')||(word[i]='E')||(word[i]='I')||(word[i]='O')||(word[i]='U')||(word[i]='a')||(word[i]='e')||(word[i]='i')||(word[i]='o')||(word[i]='u')){
-            count++;
+            count+1;
         }
     }
     return count;
@@ -44,8 +44,9 @@ function countVowels(word){
 console.log(doubleNumbers("Hello"));
 
 
+//Question 4. Array double
 let array=[1,2,3,4,5];
-function doubleNumbers(numbers){
+doubleNumbers=(numbers)=>{
     let newArr=new Array(numbers.length);
     for(let j=0;j<numbers.length;j++){
         newArr[j]=numbers[j]*2;
@@ -55,12 +56,9 @@ function doubleNumbers(numbers){
 
 console.log(doubleNumbers(array));
 
-function fahrenheitToCelsius(f){
-    let c=(f-32)*5/9;
-    return c;
-}
+fahrenheitToCelsius=(f)=>((f-32)*5/9);
 
-function describeTemperature(f){
+describeTemperature=(f)=>{
     let c=fahrenheitToCelsius(f);
     if(c<0){
         return "Freezing!";
