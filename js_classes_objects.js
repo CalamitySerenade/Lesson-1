@@ -87,12 +87,12 @@ console.log(s1.introduce());
 
 //Question 4. 
 class Book{
-    constructor(String title, String author, int pages){
+    constructor(title, author,pages){
         this.title=title;
         this.author=author;
         this.pages=pages;
     }
-    function listBooks(arr){
+    listBooks(arr){
     for (let i=0;i<arr.length;i++){
             const book=arr[i];
             console.log(book.title+" by "+book.author);
@@ -111,7 +111,7 @@ listBooks(library);
 //Question 5.
 class User{
     #password=" ";
-    constructor(String name){
+    constructor(name){
         this.name=name;
     }
     setPassword(password){
