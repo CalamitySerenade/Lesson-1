@@ -126,3 +126,7 @@ const u1 = new User("azahar");
 u1.setPassword("abc123");
 console.log(u1.checkPassword("abc123")); // "Access granted"
 console.log(u1.checkPassword("wrong")); // "Access denied"
+
+
+//Notes: JS objects can be directly created without writing a class
+//making it much faster than Java
